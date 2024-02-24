@@ -1,15 +1,15 @@
-package horde.hordemono.login;
+package horde.hordemono.welcome;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Welcome {
+public class WelcomeController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Hello Spring Boot";
+        return "Welcome to Spring Boot Starter Project";
     }
 
 
