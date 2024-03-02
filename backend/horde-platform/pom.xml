@@ -12,9 +12,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <!--        <horde.version>0.0.1</horde.version>-->
         <java.version>17</java.version>
-        <!--        <spring.version>3.2.3</spring.version>-->
     </properties>
 
     <groupId>org.horde</groupId>
@@ -25,6 +23,7 @@
 
     <modules>
         <module>horde-core</module>
+        <module>horde-commons</module>
     </modules>
 
     <dependencies>
