@@ -9,17 +9,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>horde-core</artifactId>
+    <artifactId>horde-commons</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>horde-core</name>
-    <description>Horde Core Project</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.horde</groupId>
-            <artifactId>horde-commons</artifactId>
-            <version>0.0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <name>horde-commons</name>
+    <description>Horde Commons Project</description>
 
 </project>
