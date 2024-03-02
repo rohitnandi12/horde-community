@@ -1,10 +1,10 @@
-package horde.hordemono;
+package org.horde.hordecore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HordeMonoApplicationTests {
+class HordeCoreApplicationTests {
 
 	@Test
 	void contextLoads() {
